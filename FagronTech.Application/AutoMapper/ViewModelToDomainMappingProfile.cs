@@ -10,6 +10,9 @@ namespace FagronTech.Application.AutoMapper
         public ViewModelToDomainMappingProfile()
         {
             CreateMap<ClienteViewModel, Cliente>();
+            
+            CreateMap<ProfissaoViewModel, Profissao>()
+               .ForMember(x => x.NomeProfissao, opt => opt.MapFrom((s, d) => s.Nome));
         }
     }
 }

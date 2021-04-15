@@ -12,5 +12,6 @@ namespace FagronTech.Domain.Entities
         public string CPF { get; set; }
         public DateTime DataNascimento { get; set; }
         public int ProfissaoId { get; set; }
+        public virtual Profissao Profissao {get;set;}
     }
 }

@@ -4,10 +4,10 @@ using Fagron.Buzz.Log.ServicesExtensions;
 
 using FagronTech.CrossCutting.IoC;
 
-using Lider.Buzz.Web.Configurations.Swagger;
-using Lider.Buzz.Web.Extensions;
-using Lider.Buzz.Web.Filters;
-using Lider.Buzz.Web.Middlewares;
+using FagronTech.Infrastructure.Web.Configurations.Swagger;
+using FagronTech.Infrastructure.Web.Extensions;
+using FagronTech.Infrastructure.Web.Filters;
+using FagronTech.Infrastructure.Web.Middlewares;
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

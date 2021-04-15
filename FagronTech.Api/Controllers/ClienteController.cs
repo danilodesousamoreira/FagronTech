@@ -1,7 +1,6 @@
 ﻿using FagronTech.Application.Interfaces;
 using FagronTech.Application.ViewModels;
-
-using Lider.Buzz.Web;
+using FagronTech.Infrastructure.Web;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -30,7 +29,7 @@ namespace FagronTech.Api.Controllers
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<ClienteViewModel> Get(int id)
+        public ActionResult<ClienteViewModel> BuscarClientePorId(int id)
         {
             ClienteViewModel result = clienteService.BuscarClientePorId(id);
 

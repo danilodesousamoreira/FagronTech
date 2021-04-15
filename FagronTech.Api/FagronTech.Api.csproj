@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FagronTech.Application\FagronTech.Application.csproj" />
     <ProjectReference Include="..\FagronTech.CrossCutting\FagronTech.CrossCutting.csproj" />
+    <ProjectReference Include="..\FagronTech.Infrastructure.Web\FagronTech.Infrastructure.Web.csproj" />
   </ItemGroup>
 
 
