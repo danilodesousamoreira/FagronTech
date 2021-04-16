@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FagronTech.Application\FagronTech.Application.csproj" />
+    <ProjectReference Include="..\FagronTech.CrossCutting\FagronTech.CrossCutting.csproj" />
+    <ProjectReference Include="..\Infrastructure\FagronTech.Infrastructure.Web\FagronTech.Infrastructure.Web.csproj" />
+  </ItemGroup>
+
+
+</Project>
