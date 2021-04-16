@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\FagronTech.Infrastructure.Business\FagronTech.Infrastructure.Business.csproj" />
+    <ProjectReference Include="..\Infrastructure\FagronTech.Infrastructure.Repository\FagronTech.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
